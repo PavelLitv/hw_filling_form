@@ -29,7 +29,7 @@ public class FillFormTest {
 
         $("#subjectsInput").setValue("Arts").pressEnter();
         $x("//label[text()='Sports']").click();
-        $("#uploadPicture").uploadFile(new File("src/resources/photo.jpg"));
+        $("#uploadPicture").uploadFile(new File("src/test/resources/photo.jpg"));
         $("#currentAddress").sendKeys("luxury village somewhere in Siberia");
 
         $x("//div[text()='Select State']").click();
